@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdev_knowledge=self.webpackChunkdev_knowledge||[]).push([[961],{4606:e=>{e.exports=JSON.parse('[{"label":"ML","permalink":"/dev-knowledge/blog/tags/ml","count":1},{"label":"AI","permalink":"/dev-knowledge/blog/tags/ai","count":1}]')}}]);

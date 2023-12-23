@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdev_knowledge=self.webpackChunkdev_knowledge||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u8ba4\u8bc6 Transformer \u6a21\u578b","permalink":"/dev-knowledge/blog/ml-transformer","unlisted":false}]}')}}]);
