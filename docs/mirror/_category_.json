@@ -1,6 +1,6 @@
 {
   "label": "镜像站配置",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "常用工具的镜像站配置方法"
