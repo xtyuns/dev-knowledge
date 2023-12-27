@@ -1,19 +1,18 @@
 ---
 title: Dockerfile
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-编译 DB-GPT: https://github.com/eosphoros-ai/DB-GPT/tree/v0.4.3
+打包 DB-GPT(proxyllm): https://github.com/eosphoros-ai/DB-GPT/tree/v0.4.3
 
 ```Dockerfile
-FROM xtyuns/debian:bookworm
+FROM xtyuns/debian-tuna:bookworm
 
 # 安装依赖软件包
 RUN apt-get install -y git python3 pip python3-venv wget sqlite3 tzdata \
     && apt-get clean
 
 # 设置工作目录
-RUN mkdir -p /app
 WORKDIR /app
 
 # 配置默认 python venv 环境
@@ -43,7 +42,7 @@ RUN mkdir -p /app/pilot/data && sqlite3 /app/pilot/data/default_sqlite.db < /app
 # 设置时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shanghai" > /etc/timezone
 
-# 将当前 python 程序加入 python 环境变量
+# 将当前应用加入 python 环境变量
 ENV PYTHONPATH "/app:$PYTHONPATH"
 
 # 声明应用端口
