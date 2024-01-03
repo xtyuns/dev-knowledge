@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdev_knowledge=self.webpackChunkdev_knowledge||[]).push([[9781],{8190:e=>{e.exports=JSON.parse('{"label":"AI","permalink":"/dev-knowledge/blog/tags/ai","allTagsPath":"/dev-knowledge/blog/tags","count":1,"unlisted":false}')}}]);

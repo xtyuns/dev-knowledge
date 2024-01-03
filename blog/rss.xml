@@ -4,10 +4,22 @@
         <title>Developer Knowledge Blog</title>
         <link>https://xtyuns.github.io/dev-knowledge/blog</link>
         <description>Developer Knowledge Blog</description>
-        <lastBuildDate>Sat, 23 Dec 2023 15:50:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Dec 2023 16:05:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[MySQL 的碎片整理 (TODO)]]></title>
+            <link>https://xtyuns.github.io/dev-knowledge/blog/mysql-optimize-table</link>
+            <guid>https://xtyuns.github.io/dev-knowledge/blog/mysql-optimize-table</guid>
+            <pubDate>Wed, 27 Dec 2023 16:05:09 GMT</pubDate>
+            <description><![CDATA[https://www.cnblogs.com/wy123/p/12535644.html]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p><a href="https://www.cnblogs.com/wy123/p/12535644.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/wy123/p/12535644.html</a></p>
+</blockquote>]]></content:encoded>
+            <category>MySQL</category>
+            <category>Database</category>
+        </item>
         <item>
             <title><![CDATA[认识 Transformer 模型]]></title>
             <link>https://xtyuns.github.io/dev-knowledge/blog/ml-transformer</link>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdev_knowledge=self.webpackChunkdev_knowledge||[]).push([[2067],{6460:e=>{e.exports=JSON.parse('{"permalink":"/dev-knowledge/blog/tags/my-sql","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
