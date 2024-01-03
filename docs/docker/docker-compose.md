@@ -20,5 +20,6 @@ services:
       - app_data:/data
     restart: unless-stopped
 volumes:
+
   app_data: {}
 ```
